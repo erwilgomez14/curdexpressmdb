@@ -13,13 +13,13 @@ app.use(express.json())
 //mongoose
 const Participante = require('./models/participante')
 
-moongose.connect(mongosh "mongodb+srv://cluster0.sfuxyou.mongodb.net/myFirstDatabase" --apiVersion 1 --username erwildiaz,
+moongose.connect('mongodb+srv://cluster0.sfuxyou.mongodb.net/myFirstDatabase',
 {useNewUrlParser: true, useUnifiedTopology: true}).then(()=>console.log("conectado a la base de datos")).catch(err=>console.log(err))
 
 app.post('/participante', (req, res)=> {
     const nombre = req.body.nombre
     const correo = req.body.correo
-    const telefono = req.body.telefono
+    const telefono = req.body.telefono  // hola
     const interes = req.body.interes
 
     const nuevoParticipante = new Participante({
