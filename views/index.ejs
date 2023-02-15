@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <link href="asset/main.css" rel="stylesheet">
+</head>
+
+<body>
+    <section class="container">
+        <h1 class="my-3">Te Fuistes de over</h1>
+        <form class="bg-i">
+            <div class="mb-3">
+                <label for="nombre" class="form-label">Correo</label>
+                <input type="nombre" class="form-control" id="nombre" aria-describedby="nombre">
+                <!-- <div id="emailHelp" class="form-radio" class="form-check-input" id="" value="">We'll never share your email with anyone else.</div> -->
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Correo</label>
+                <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
+            </div>
+            <div class="mb-3">
+                <label for="telefono" class="form-label">Telefono</label>
+                <input type="telefono" class="form-control" id="telefono">
+            </div>
+            <div class="mb-3">
+                <!-- <input type="checkbox" class="form-check-input" id="exampleCheck1"> -->
+                <label class="form-label" for="interes">Interes</label>
+                <br>
+                <input type="radio" class="form-check-input" id="desarrolloweb" value="desarrolloweb">Desarrollo Web
+                <input type="radio" class="form-check-input" id="desarrolloappmobile"
+                    value="desarrolloappmobile">Desarrollo de aplicaciones mobiles
+                <input type="radio" class="form-check-input" id="cienciadedatos" value="cienciadedatos">Ciencias de
+                Datos
+                <input type="radio" class="form-check-input" id="aprendizajedemaquinas"
+                    value="aprendizajedemaquinas">Aprendizaje de maquinas
+                <input type="radio" class="form-check-input" id="desarrollodejuegos"
+                    value="desarrollodejuegos">Desarrollo de juegos
+            </div>
+            <div class="mb-3">
+                <label for="foto" class="form-label">Subir Foto</label>
+                <input class="form-control" type="file" name="foto" id="foto">
+            </div>
+
+        </form>
+        <a href="/participantes">Participantes</a>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
